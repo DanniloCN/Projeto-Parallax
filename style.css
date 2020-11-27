@@ -7,6 +7,7 @@ body {
   box-sizing: border-box;
   background: #000;
 }
+
 nav {
   position: fixed;
   z-index: 100;
@@ -47,14 +48,14 @@ section {
 .rock1 {
   position: absolute !important;
   left: 10vw !important;
-  top: 20vw !important;
+  top: 20vh !important;
 }
 .rock1 img {
   width: 40%;
   filter: brightness(0.5);
 }
 .text h1 {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open-sans", sans-serif !important;
   font-size: 5vw;
   color: #fff;
   letter-spacing: 20px;
@@ -132,52 +133,60 @@ section {
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: transparent;
 }
-.swiper-container{
+
+.swiper-container {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     padding: 50px 0;
-}
-.swiper-wrapper{
+  }
+  
+  .swiper-wrapper {
     transition-delay: 0.5s;
-}
-.swiper-slide{
+  }
+  
+  .swiper-slide {
     height: 400px !important;
     width: 90% !important;
     background: transparent;
-}
-.swiper-slide:nth-child(1) .slide-img{
+  }
+  
+  .swiper-slide:nth-child(1) .slide-img {
     background-image: url("images/mercury.png");
-}
-.swiper-slide:nth-child(2) .slide-img{
+  }
+  .swiper-slide:nth-child(2) .slide-img {
     background-image: url("images/venus.png");
-}
-.swiper-slide:nth-child(3) .slide-img{
-    background-image: url("images/earth.png");
-}
-.swiper-slide:nth-child(4) .slide-img{
+  }
+  .swiper-slide:nth-child(3) .slide-img {
+    background-image: url("images/earth1.png");
+  }
+  .swiper-slide:nth-child(4) .slide-img {
     background-image: url("images/mars.png");
-}
-.swiper-slide:nth-child(5) .slide-img{
+  }
+  .swiper-slide:nth-child(5) .slide-img {
     background-image: url("images/jupiter.png");
-}
-.swiper-slide:nth-child(6) .slide-img{
+  }
+  .swiper-slide:nth-child(6) .slide-img {
     background-image: url("images/saturn.png");
-}
-.swiper-slide:nth-child(7) .slide-img{
+    width: 29%;
+    height: 92%;
+  }
+  .swiper-slide:nth-child(7) .slide-img {
     background-image: url("images/uranus.png");
-}
-.swiper-slide:nth-child(8) .slide-img{
+  }
+  .swiper-slide:nth-child(8) .slide-img {
     background-image: url("images/neptune.png");
-}
-.slider-img{
+  }
+  
+  .slide-img {
     background-position: "center";
     background-repeat: no-repeat !important;
     background-size: contain;
     width: 30%;
     height: 100%;
-}
-.slide-number{
+  }
+  
+  .slide-number {
     position: absolute;
     top: -30px;
     left: 30%;
@@ -185,18 +194,20 @@ section {
     height: 120px;
     overflow: hidden;
     z-index: 10;
-}
-.slide-number p{
+  }
+  
+  .slide-number p {
     font-size: 40px;
-    font-family: "AlphaCentauri", !important;
+    font-family: "Open-sans", sans-serif !important;
     color: #fff;
     position: relative;
-}
-.slide-number p span{
+  }
+  
+  .slide-number p span {
     position: absolute;
-    
-}
-.slider-detail{
+  }
+  
+  .slide-detail {
     position: absolute;
     top: 130px;
     left: 30%;
@@ -204,18 +215,21 @@ section {
     width: 50%;
     height: 400px;
     overflow: hidden;
-}
-.slide-detail p{
+  }
+  
+  .slide-detail p {
     font-size: 14px;
     color: #fff;
     position: relative;
     opacity: 0.8;
     line-height: 30px;
-}
-.slide-detail p span{
+  }
+  
+  .slide-detail p span {
     position: absolute;
-}
-.slide-detail-facts{
+  }
+  
+  .slide-detail-facts {
     position: absolute;
     top: 240px;
     left: 30%;
@@ -224,16 +238,16 @@ section {
     height: 400px;
     overflow: hidden;
     color: #fff;
-}
-.slide-detail-facts div{
+  }
+  .slide-detail-facts div {
     display: flex;
     position: relative;
-
-}
-.slide-detail-facts div h5{
+  }
+  .slide-detail-facts div h5 {
     margin-right: 20px;
-}
-.slide-text{
+  }
+  
+  .slide-text {
     position: absolute;
     top: -150px;
     left: 22%;
@@ -242,12 +256,14 @@ section {
     height: 400px;
     overflow: hidden;
     opacity: 0.1 !important;
-}
-.slide-text h4{
+  }
+  
+  .slide-text h4 {
     color: #fff;
     font-size: 100px;
     position: relative;
-}
-.slide-text h4 span{
+  }
+  .slide-text h4 span {
     position: absolute;
-}
+  }
+  
