@@ -65,7 +65,7 @@ slider.on("slideChange", function() {
     });
   
     gsap.to(".slide-number span", 0.2, {
-      x: 0
+      x: "35px"
     });
     gsap.to(".slide-number span", 0, {
       x: "100px"
